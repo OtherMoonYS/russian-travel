@@ -1,0 +1,15 @@
+.cover__text {
+  max-width: 560px;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  z-index: 1;
+}
+
+@media (max-width: 320px) {
+  .cover__text {
+    max-width: 288px;
+  }
+}
