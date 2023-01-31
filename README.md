@@ -1,23 +1,17 @@
-# Проект: Путешествие по России
+# Project: Russian Travel
+### The project was created during the 3rd training sprint
 
-### Обзор
-* Интро
-* Figma
-* Картинки
+<h1 align="center">Hi there, I'm <a href="https://vk.com/saneevyuriy" target="_blank">Saneev Yuriy!</a> 
+<img src="https://github.com/blackcater/blackcater/raw/main/images/Hi.gif" height="32"/></h1>
+<h3 align="center">Student of Yandex Praktikum!</h3>
 
-**Интро**
+This project is a landing page on the topic "Russian Travel"
 
-Здесь будет проект о путешествии по России.
-В Фигме мы разместили макет, в котором видно, как проект должен выглядеть на самых распространённых разрешениях экранов.
-Этот проект сложнее предыдущих, постарайтесь уделить ему больше времени.
+## Использованные технологии
 
-**Figma**
+- HTML
+- CSS
+- БЭМ
 
-* [Ссылка на макет в Figma](https://www.figma.com/file/5S2WSbEFL6awjVWJ0NWL8Q/Sprint-3_-Russia-_-desktop-mobile?node-id=28503%3A0)
+## Github Pages
 
-**Картинки**
-
-Доставать картинки предстоит из Фигмы. Это расхожая практика, поэтому полезно потренироваться.
-Не забудьте [оптимизировать картинки](https://tinypng.com/), чтобы ваш сайт загружался быстрее.
-
-Удачи!
