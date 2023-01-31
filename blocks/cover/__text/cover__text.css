@@ -1,5 +1,5 @@
 .cover__text {
-  max-width: 560px;
+  max-width: 552px;
   margin: 0;
   padding: 0;
   display: flex;
@@ -10,6 +10,6 @@
 
 @media (max-width: 320px) {
   .cover__text {
-    max-width: 288px;
+    max-width: 245px;
   }
 }
