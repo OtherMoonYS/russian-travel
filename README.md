@@ -15,3 +15,4 @@ This project is a landing page on the topic "Russian Travel"
 
 ## Github Pages
 
+##<a href="https://othermoonys.github.io/russian-travel/" targer="_blank">Link</a>
