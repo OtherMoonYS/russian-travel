@@ -7,11 +7,11 @@
 
 This project is a landing page on the topic "Russian Travel"
 
-## Использованные технологии
+## Technologies used
 
 - HTML
 - CSS
-- БЭМ
+- BEM
 
 ## Github Pages
 
