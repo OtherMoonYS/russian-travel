@@ -4,6 +4,8 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 22px;
+  text-decoration: underline;
+  text-underline-offset: 4px;
 }
 
 @media (max-width: 768px) {

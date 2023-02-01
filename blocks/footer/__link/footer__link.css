@@ -25,3 +25,9 @@
     padding-top: 18px;
   }
 }
+
+@media (max-width: 320px) {
+  .footer__link:not(:first-child) {
+    padding-top: 32px;
+  }
+}

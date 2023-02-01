@@ -3,12 +3,12 @@
   padding: 0;
 }
 
-.place__paragraph:not(:first-child) {
-  margin-top: 27px;
+.place__paragraph:not(.place__paragraph:first-child) {
+  margin-top: 26px;
 }
 
 @media (max-width: 768px) {
-  .place__paragraph:not(:first-child) {
+  .place__paragraph:not(.place__paragraph:first-child) {
     margin-top: 25px;
   }
 }
