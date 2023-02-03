@@ -1,11 +1,9 @@
 .place {
   padding: 0;
-  margin: 0;
+  margin: 0 0 80px;
   max-width: 984px;
-  margin-bottom: 80px;
   display: grid;
-  grid-template-columns: repeat(2, fit-content(484px));
-  grid-template-rows: repeat(2, fit-content(484px));
+  grid-template-columns: minmax(min-content, 460px) minmax(min-content, 484px);
   gap: 48px 40px;
 }
 
@@ -13,31 +11,23 @@
   margin-bottom: 0;
 }
 
-@media (max-width:1024px) {
+@media (max-width: 1279px) {
   .place {
-    max-width: 928px;
-    gap: 32px 48px;
+    grid-template-columns: minmax(440px, 460px) minmax(456px, 484px);
+    gap: 48px 32px;
   }
 }
 
-@media (max-width:768px) {
+@media (max-width: 1023px) {
   .place {
-    max-width: 720px;
+    grid-template-columns: minmax(340px, 460px) minmax(352px, 484px);
     gap: 48px 28px;
-    margin-bottom: 73px;
   }
 }
 
-@media (max-width:600px) {
+@media (max-width: 767px) {
   .place {
-    max-width: 320px;
-    margin-bottom: 50px;
-    grid-template-columns: repeat(1, 1fr);
-    gap: 32px 0;
-    grid-template-areas: 
-    "place__title"
-    "place__website"
-    "place__image"
-    "place__description";
+    grid-template-columns: minmax(min-content, max-content);
+    row-gap: 32px;
   }
 }

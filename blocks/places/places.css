@@ -4,20 +4,25 @@
   max-width: 984px;
 }
 
-@media (max-width:1024px) {
+@media (max-width:1279px) {
   .places {
-    max-width: 928px;
+    padding-left: 48px;
+    padding-right: 48px;
   }
 }
 
-@media (max-width:768px) {
+@media (max-width:1023px) {
   .places {
-    max-width: 720px;
+    padding-left: 24px;
+    padding-right: 24px;
+    margin: 0 0 90px;
   }
 }
 
-@media (max-width:600px) {
+@media (max-width:767px) {
   .places {
-    max-width: 320px;
+    padding-left: 0;
+    padding-right: 0;
+    margin: 0 auto 66px;
   }
 }

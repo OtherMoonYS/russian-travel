@@ -4,11 +4,13 @@
   display: flex;
   flex-direction: row;
   max-width: 465px;
+  justify-content: space-between;
 }
 
-@media (max-width: 608px) {
+@media (max-width: 767px) {
   .links {
     max-width: 158px;
     flex-direction: column;
+
   }
 }

@@ -1,19 +1,13 @@
 .place__website {
-  margin: 0;
-  padding: 0;
-  max-width: 456px;
   align-self: end;
+  grid-column-start: 2;
+  grid-row-start: 1;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .place__website {
-    max-width: 352px;
-  }
-}
-
-@media (max-width: 600px) {
-  .place__website {
-    max-width: 288px;
-    grid-area: place__website;
+    margin-left: 16px;
+    grid-column-start: 1;
+    grid-row-start: 2;
   }
 }
